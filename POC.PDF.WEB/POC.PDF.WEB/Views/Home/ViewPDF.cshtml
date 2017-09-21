@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "ViewPDF";
+}
+
+<h2>ViewPDF</h2>
+
+@using (Html.BeginForm("ViewPDF", "Home", FormMethod.Post))
+{
+    <a href="javascript:;" onclick="document.forms[0].submit();">View PDF</a>
+        <hr />
+        @Html.Raw(TempData["Embed"])
+}
