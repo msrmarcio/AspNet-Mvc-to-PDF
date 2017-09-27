@@ -179,6 +179,6 @@ C:\gitHub_Examples\AspNet-Mvc-to-PDF\POC.PDF.WEB\POC.PDF.WEB\bin\Microsoft.Owin.
 C:\gitHub_Examples\AspNet-Mvc-to-PDF\POC.PDF.WEB\POC.PDF.WEB\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\gitHub_Examples\AspNet-Mvc-to-PDF\POC.PDF.WEB\POC.PDF.WEB\bin\de\PdfSharp.resources.dll
 C:\gitHub_Examples\AspNet-Mvc-to-PDF\POC.PDF.WEB\POC.PDF.WEB\bin\de\PdfSharp.Charting.resources.dll
-C:\gitHub_Examples\AspNet-Mvc-to-PDF\POC.PDF.WEB\POC.PDF.WEB\obj\Debug\POC.PDF.WEB.csprojResolveAssemblyReference.cache
 C:\gitHub_Examples\AspNet-Mvc-to-PDF\POC.PDF.WEB\POC.PDF.WEB\obj\Debug\POC.PDF.WEB.dll
 C:\gitHub_Examples\AspNet-Mvc-to-PDF\POC.PDF.WEB\POC.PDF.WEB\obj\Debug\POC.PDF.WEB.pdb
+C:\gitHub_Examples\AspNet-Mvc-to-PDF\POC.PDF.WEB\POC.PDF.WEB\obj\Debug\POC.PDF.WEB.csprojResolveAssemblyReference.cache

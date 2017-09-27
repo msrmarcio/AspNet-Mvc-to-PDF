@@ -48,6 +48,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png" />
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png" />
 
+    <!--CALENDARIO-->
+
+
 </head>
 <body>
     <div>
@@ -60,52 +63,52 @@
             <legend><strong>CONTRATANTE</strong></legend>
             <div class="row-fluid">
                 <div class="span8">
-                    <div class="row-fluid">
+                    @*<div class="row-fluid">
                         <div class="span12 bgcolor">
                             <div class="alert alert-error">
                                 <a href="#" class="close" data-dismiss="alert">×</a>
                                 Mensagens de Erros aqui.
                             </div>
                         </div>
-                    </div>
+                    </div>*@
                     <div class="row-fluid">
                         <div class="span6 bgcolor">
                             <div class="control-group">
                                 <label class="control-label" for="firstName">EMPRESA</label>
                                 <div class="controls">
                                     <input type="text" id="firstName" placeholder="Digite o nome fantasia por exemplo" class="input-xxlarge">
-                                    <span class="help-block">esta linha é de ajuda</span>
+                                    @*<span class="help-block">esta linha é de ajuda</span>*@
                                 </div>
                             </div>
                         </div><!--/span-->
                     </div><!--/row-->
                     <div class="row-fluid">
                         <div class="span12 bgcolor">
-                            <div class="control-group error">
+                            <div class="control-group ">
                                 <label class="control-label" for="lastName">RAZÃO SOCIAL</label>
                                 <div class="controls">
                                     <input type="text" id="lastName" class="input-xxlarge" placeholder="razão social">
-                                    <span class="help-block">Este campo é obrigatório.</span>
+                                    @*<span class="help-block">Este campo é obrigatório.</span>*@
                                 </div>
                             </div>
                         </div><!--/span-->
                     </div>	<!--/row-->
                     <div class="row-fluid">
                         <div class="span6 bgcolor">
-                            <div class="control-group error">
+                            <div class="control-group ">
                                 <label class="control-label" for="lastName">ATIVIDADE</label>
                                 <div class="controls">
                                     <input type="text" id="lastName" placeholder="Atividade da empresa">
-                                    <span class="help-block">Este campo é obrigatório.</span>
+                                    @*<span class="help-block">Este campo é obrigatório.</span>*@
                                 </div>
                             </div>
                         </div><!--/span-->
                         <div class="span6 bgcolor">
-                            <div class="control-group error">
+                            <div class="control-group ">
                                 <label class="control-label" for="lastName">CNPJ / CPF</label>
                                 <div class="controls">
                                     <input type="text" id="lastName" placeholder="CPF / CNPJ">
-                                    <span class="help-block">Este campo é obrigatório.</span>
+                                    @*<span class="help-block">Este campo é obrigatório.</span>*@
                                 </div>
                             </div>
                         </div><!--/span-->
@@ -132,7 +135,7 @@
                     </div>
                     <div class="row-fluid">
                         <div class="span6 bgcolor">
-                            <div class="control-group error">
+                            <div class="control-group ">
                                 <label class="control-label" for="lastName">CPF</label>
                                 <div class="controls">
                                     <input type="text" id="lastName" placeholder="numero do CPF">
@@ -141,7 +144,7 @@
                             </div>
                         </div><!--/span-->
                         <div class="span6 bgcolor">
-                            <div class="control-group error">
+                            <div class="control-group ">
                                 <label class="control-label" for="lastName">TELEFONE</label>
                                 <div class="controls">
                                     <input type="text" id="lastName" placeholder="Telefone fixo">
@@ -152,7 +155,7 @@
                     </div><!--/row-->
                     <div class="row-fluid">
                         <div class="span6 bgcolor">
-                            <div class="control-group error">
+                            <div class="control-group ">
                                 <label class="control-label" for="lastName">Cel.</label>
                                 <div class="controls">
                                     <input type="text" id="lastName" placeholder="Numero do Celular">
@@ -378,62 +381,185 @@
                                 <tr>
                                     <th scope="row">250</th>
                                     <td>PLANO 300 HORAS</td>
-                                    <td><input type="text"  /></td>
-                                    <td><input type="text"  /></td>
-                                    <td><input type="text"  /></td>
+                                    <td><input type="text" /></td>
+                                    <td><input type="text" /></td>
+                                    <td><input type="text" /></td>
                                 </tr>
                                 <tr>
                                     <th scope="row"></th>
                                     <td>PLANO 180 HORAS</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input class="form-control input-lg" id="inputlg" type="text" /></td>
+                                    <td><input class="form-control input-lg" id="inputlg" type="text" /></td>
+                                    <td><input class="form-control input-lg" id="inputlg" type="text" /></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">232</th>
                                     <td>PLANO 60 HORAS</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input class="form-control input-lg" id="inputlg" type="text" /></td>
+                                    <td><input class="form-control input-lg" id="inputlg" type="text" /></td>
+                                    <td><input class="form-control input-lg" id="inputlg" type="text" /></td>
                                 </tr>
                                 <tr>
                                     <th scope="row"></th>
                                     <td>PLANO 1 DIA (10 HORAS)</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input class="form-control input-lg" id="inputlg" type="text" /></td>
+                                    <td><input class="form-control input-lg" id="inputlg" type="text" /></td>
+                                    <td><input class="form-control input-lg" id="inputlg" type="text" /></td>
                                 </tr>
                                 <tr>
                                     <th scope="row"></th>
                                     <td>PLANO 1/2 DIA (5 HORAS)</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input class="form-control input-lg" id="inputlg" type="text" /></td>
+                                    <td><input class="form-control input-lg" id="inputlg" type="text" /></td>
+                                    <td><input class="form-control input-lg" id="inputlg" type="text" /></td>
                                 </tr>
                             </tbody>
                         </table>
 
                         <table class="table table-bordered table-responsive">
                             <tbody>
-                                <tr style="font-size: x-large">
-                                    <td ><strong>TOTAL DE LOCAÇÕES POR HORA</strong></td>
-                                    <td style="width: 300px">R$ </td>
+                                <tr style="font-size: medium">
+                                    <td><strong>TOTAL DE LOCAÇÕES POR HORA</strong></td>
+                                    <td style="width: 300px; font-size:xx-large">R$ </td>
                                 </tr>
                             </tbody>
                         </table>
 
                         <table class="table table-bordered table-responsive">
                             <thead>
-
+                                <tr style="font-size: medium">
+                                    <th colspan="2">FORMAS DE PAGAMENTO</th>
+                                    <th colspan="2"> VIGÊNCIA DO CONTRATO</th>
+                                </tr>
                             </thead>
                             <tbody>
-                                <tr style="font-size: medium">
-                                    <td><strong>FORMAS DE PAGAMENTO</strong></td>
+                                <tr>
+                                    <th scope="row"><input type="checkbox" name="animal" value="Cat" /> BOLETO BANCARIO </th>
+                                    <th scope="row"><input type="checkbox" name="animal" value="Cat" /> DINHEIRO </th>
+                                    <th rowspan="2"><br />De: <input class="form-control input-lg" id="inputlg" type="text" placeholder="&nbsp;&nbsp;DD / MM / YYYYY" /></th>
+                                    <th rowspan="2"><br />Até: <input class="form-control input-lg" id="inputlg" type="text" placeholder="&nbsp;&nbsp;DD / MM / YYYYY" /></th>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><input type="checkbox" name="animal" value="Cat" /> CARTÃO DE CRÉDITO </th>
+                                    <th scope="row"><input type="checkbox" name="animal" value="Cat" /> CHEQUE </th>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <legend><strong> LOCAÇÃO MENSAIS</strong></legend>
+                        <table class="table table-bordered table-responsive">
+                            <thead>
+
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">219</th>
+                                    <td> VAGA DE ESTACIONAMENTO </td>
+                                    <td><input type="text" /></td>
+                                    <td><input type="text" /></td>
+                                    <td><input type="text" /></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">214</th>
+                                    <td> ARMÁRIO/LOCKER/DEPÓSITO </td>
+                                    <td><input type="text" /></td>
+                                    <td><input type="text" /></td>
+                                    <td><input type="text" /></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="table table-bordered table-responsive">
+                            <thead>
+                                <tr>
+                                    <th>VALOR DO PRIMEIRO MÊS (PARCIAL, CASO NÃO INICIE NO DIA 1)</th>
+                                    <th>VALOR DO PRIMEIRO MÊS (PARCIAL, CASO NÃO INICIE NO DIA 1)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row" style="font-size: xx-large"> R$ <input type="text" /></td>
+                                    <td scope="row" style="font-size: xx-large"> R$ <input type="text" /></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="row-fluid">
+                            <div class="span10">
+                                <label for="Textarea"> OBSERVAÇÃO </label>
+                                <textarea class="span19 form-control" id="exampleTextarea" rows="3"></textarea>
+                            </div>
+                        </div>
+
+                        <br />
+
+                        <table class="table table-bordered table-responsive">
+                            <thead>
+                                <tr style="font-size: medium">
+                                    <th colspan="2">FORMAS DE PAGAMENTO</th>
+                                    <th colspan="2"> VIGÊNCIA DO CONTRATO</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"><input type="checkbox" name="animal" value="Cat" /> BOLETO BANCARIO </th>
+                                    <th scope="row"><input type="checkbox" name="animal" value="Cat" /> DINHEIRO </th>
+                                    <th rowspan="2"><br />De: <input class="form-control input-lg" id="inputlg" type="text" placeholder="&nbsp;&nbsp;DD / MM / YYYYY" /></th>
+                                    <th rowspan="2"><br />Até: <input class="form-control input-lg" id="inputlg" type="text" placeholder="&nbsp;&nbsp;DD / MM / YYYYY" /></th>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><input type="checkbox" name="animal" value="Cat" /> CARTÃO DE CRÉDITO </th>
+                                    <th scope="row"><input type="checkbox" name="animal" value="Cat" /> CHEQUE </th>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <hr style="border-width: 6px;" />
+                        <br />
+                        Alphaville, Barueri, <input type="text" id="lastName" class="input-xxlarge" placeholder="">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <table class="table table-bordered table-responsive">
+                            <thead>
+                                <tr style="font-size: medium">
+                                    <th colspan="2">______________________________________________</th>
+                                    <th colspan="2">______________________________________________</th>
+                                </tr>
+                                <tr style="font-size: medium">
+                                    <th colspan="2">  CONTRATANTE  </th>
+                                    <th colspan="2">  ORGÂNICO OFFICES & SERVIÇOS LTDA  </th>
+                                </tr>
+                            </thead>
+                        </table>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <table class="table table-bordered table-responsive"  border="1" cellspacing="0" rules="none">
+                            <thead>
+                                <tr style="font-size: medium">
+                                    <th colspan="2">  TESTEMUNHA 1  </th>
+                                    <th colspan="2">  TESTEMUNHA 2  </th>
+                                </tr>
+                                <tr style="font-size: medium">
+                                    <th colspan="2"></th>
+                                    <th colspan="2"></th>
+                                </tr>
+                                <tr style="font-size: medium">
+                                    <th colspan="2">______________________________________________</th>
+                                    <th colspan="2">______________________________________________</th>
+                                </tr>
+                                <tr style="font-size: medium">
+                                    <th colspan="2">______________________________________________</th>
+                                    <th colspan="2">______________________________________________</th>
+                                </tr>
+                            </thead>
+                        </table>
                     </fieldset>
                 </div><!--/span-->
+
 
                 <div class="span4">
                 </div><!--/span-->
@@ -442,13 +568,17 @@
         <hr>
         <footer>
             <p>&copy; Orgânico 2017</p>
-        </footer>
+        </footer> 
+    <br />
+    <div>
+        <button type="button" class="btn btn-outline-success span12"  id="addressSearch" onclick="location.href='@Url.Action("ViewPDF", "Home")'"><strong>IMPRIMIR CONTRATO</strong></button>
     </div><!--/.fluid-container-->
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="~/Scripts/jquery-1.8.0.min.js"></script>
     <script src="~/Scripts/bootstrap.js"></script>
+
 
 </body>
 </html>
