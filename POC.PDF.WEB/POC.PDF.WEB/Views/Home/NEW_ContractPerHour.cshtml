@@ -1,4 +1,4 @@
-﻿
+﻿@model POC.PDF.WEB.Models.ReservasViewModel
 
 @{
     Layout = null;
@@ -65,19 +65,19 @@
             <div class="row-fluid">
                 <div class="span8">
                     @*<div class="row-fluid">
-                        <div class="span12 bgcolor">
-                            <div class="alert alert-error">
-                                <a href="#" class="close" data-dismiss="alert">×</a>
-                                Mensagens de Erros aqui.
+                            <div class="span12 bgcolor">
+                                <div class="alert alert-error">
+                                    <a href="#" class="close" data-dismiss="alert">×</a>
+                                    Mensagens de Erros aqui.
+                                </div>
                             </div>
-                        </div>
-                    </div>*@
+                        </div>*@
                     <div class="row-fluid">
                         <div class="span6 bgcolor">
                             <div class="control-group">
                                 <label class="control-label" for="firstName">EMPRESA</label>
                                 <div class="controls">
-                                    <input type="text" id="firstName" value="" placeholder="Digite o nome fantasia por exemplo" class="input-xxlarge">
+                                    <input type="text" id="firstName" value="@Model.Mensagem" placeholder="Digite o nome fantasia por exemplo" class="input-xxlarge">
                                     @*<span class="help-block">esta linha é de ajuda</span>*@
                                 </div>
                             </div>
@@ -365,7 +365,7 @@
                             </div><!--/span-->
                         </div><!--/row-->
                     </fieldset>
-                <br />
+                    <br />
 
                     <fieldset>
                         <legend><strong>LOCAÇÃO POR HORA</strong></legend>
@@ -517,8 +517,8 @@
                         </table>
 
                         <hr style="border-width: 6px;" />
-                       
-                         Alphaville, Barueri, @*<input type="text" id="lastName" class="input-xxlarge" placeholder="">*@
+
+                        Alphaville, Barueri, @*<input type="text" id="lastName" class="input-xxlarge" placeholder="">*@
                         <br />
                         <br />
                         <br />
@@ -535,7 +535,7 @@
                             </thead>
                         </table>
                         <br />
-                        <table class="table table-bordered table-responsive"  border="1" cellspacing="0" rules="none">
+                        <table class="table table-bordered table-responsive" border="1" cellspacing="0" rules="none">
                             <thead>
                                 <tr style="font-size: medium">
                                     <th colspan="2">  TESTEMUNHA 1  </th>
@@ -556,22 +556,22 @@
                             </thead>
                         </table>
                     </fieldset>
-                </div><!--/span--> 
+                </div><!--/span-->
             </div><!--/row-->
         </form>
         <hr>
         <footer>
             <p>&copy; Orgânico 2017</p>
-        </footer> 
-    <br />
-    <div>
-        <button type="button" class="btn btn-outline-success span12"  id="addressSearch" onclick="location.href='@Url.Action("teste", "Home")'"><strong>IMPRIMIR CONTRATO</strong></button>
-    </div><!--/.fluid-container-->
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="~/Scripts/jquery-1.8.0.min.js"></script>
-    <script src="~/Scripts/bootstrap.js"></script>
+        </footer>
+        <br />
+        <div>
+            <button type="button" class="btn btn-outline-success span12" id="addressSearch" onclick="location.href='@Url.Action("teste", "Home")'"><strong>IMPRIMIR CONTRATO</strong></button>
+        </div><!--/.fluid-container-->
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="~/Scripts/jquery-1.8.0.min.js"></script>
+        <script src="~/Scripts/bootstrap.js"></script>
 
 
 </body>

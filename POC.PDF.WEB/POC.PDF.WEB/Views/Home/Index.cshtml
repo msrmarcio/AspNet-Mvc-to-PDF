@@ -1,4 +1,6 @@
-﻿@{
+﻿@model POC.PDF.WEB.Models.ReservasViewModel
+
+@{
     ViewBag.Title = "Home Page";
 }
 
@@ -17,12 +19,17 @@
         <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
-       <h2>Gerar Pedf</h2>
+        <h2>Gerar Pedf</h2>
     </div>
 </div>
-        <li><a href="@Url.Action("Teste", "Home")">Teste PDF Generate</a></li>
-        <li><a href="@Url.Action("ViewPDF", "Home")">ViewPDF</a></li>
-        <li><a href="@Url.Action("ContractPerHour", "Home")">ViewPDF</a></li>
+<li><a href="@Url.Action("Teste", "Home")">Teste PDF Generate</a></li>
+<li><a href="@Url.Action("ViewPDF", "Home")">ViewPDF</a></li>
+<li><a href="@Url.Action("ContractPerHour", "Home")">ContractPerHour ViewPDF</a></li>
+<li><a href="@Url.Action("PdfNewContrato", "Home")">NEW CONTRATO ViewPDF</a></li>
+<li><a href="@Url.Action("PdfDetalheReserva", "Home")">DetalhesReserva ViewPDF</a></li>
+
+<br />
+    NOME: <strong>ViewBag.Nome</strong>
 
 <div class="jumbotron">
     <p>
